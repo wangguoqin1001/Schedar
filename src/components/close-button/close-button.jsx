@@ -1,0 +1,40 @@
+const PropTypes = require('prop-types');
+const React = require('react');
+const classNames = require('classnames');
+
+const styles = require('./close-button.css');
+const closeIcon = require('./icon--close.svg');
+
+const CloseButton = props => (
+    <div
+        className={classNames(
+            styles.closeButton,
+            props.className,
+            {
+                [styles.small]: props.size === CloseButton.SIZE_SMALL,
+                [styles.large]: props.size === CloseButton.SIZE_LARGE
+            }
+        )}
+        onClick={props.onClick}
+    >
+        <img
+            className={styles.closeIcon}
+            src={closeIcon}
+        />
+    </div>
+);
+
+CloseButton.SIZE_SMALL = 'small';
+CloseButton.SIZE_LARGE = 'large';
+
+CloseButton.propTypes = {
+    className: PropTypes.string,
+    onClick: PropTypes.func.isRequired,
+    size: PropTypes.oneOf([CloseButton.SIZE_SMALL, CloseButton.SIZE_LARGE])
+};
+
+CloseButton.defaultProps = {
+    size: CloseButton.SIZE_LARGE
+};
+
+module.exports = CloseButton;
