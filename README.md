@@ -3,6 +3,7 @@
 
 [![Build Status](https://travis-ci.com/LLK/scratch-gui.svg?token=Yfq2ryN1BwaxDME69Lnc&branch=master)](https://travis-ci.com/LLK/scratch-gui)
 [![Greenkeeper badge](https://badges.greenkeeper.io/LLK/scratch-gui.svg)](https://greenkeeper.io/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwangguoqin1001%2FSchedar.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwangguoqin1001%2FSchedar?ref=badge_shield)
 
 ## Installation
 This requires you to have Git and Node.js installed.
@@ -40,3 +41,7 @@ You can publish the GUI to github.io so that others on the Internet can view it.
 
 ## Donate
 We provide [Scratch](https://scratch.mit.edu) free of charge, and want to keep it that way! Please consider making a [donation](https://secure.donationpay.org/scratchfoundation/) to support our continued engineering, design, community, and resource development efforts. Donations of any size are appreciated. Thank you!
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwangguoqin1001%2FSchedar.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwangguoqin1001%2FSchedar?ref=badge_large)
